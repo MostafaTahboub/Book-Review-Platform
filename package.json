@@ -1,0 +1,30 @@
+{
+  "name": "book-review-platform",
+  "version": "1.0.0",
+  "description": "web application where users can register, log in, add books, and write reviews for those books. This project will help you revise user authentication, CRUD operations, routing, middleware, and more.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build-tsc": "tsc -w",
+    "run-watch": "nodemon ./dist",
+    "dev": "concurrently \"npm run build-tsc\"  \"npm run run-watch\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MostafaTahboub/Book-Review-Platform.git"
+  },
+  "author": "Mostafa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MostafaTahboub/Book-Review-Platform/issues"
+  },
+  "homepage": "https://github.com/MostafaTahboub/Book-Review-Platform#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "concurrently": "^8.2.2",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
